@@ -14,6 +14,8 @@ header {
   background: #F6F6F6;
   font-family: Helvetica, sans-serif;
   background-color: #E6E6E6;
+  align-items: flex-start;
+  justify-content: space-between;
 }
 
 .logo {
@@ -70,7 +72,6 @@ h1 {
 .links {
   display: flex;
   flex-direction: column;
-  padding-top: 120%;
 }
 
 a {
