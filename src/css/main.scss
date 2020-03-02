@@ -106,7 +106,7 @@ a{
 .about{
     display: flex;
     align-items: center;
-
+    overflow: scroll;
 }
 
 p{
@@ -156,25 +156,23 @@ p{
 
 
 
-
-
-
-
 @media only screen 
-  and (max-device-width: 480px) {
+    and (max-device-width: 480px) {
 
     body{
-        display: flex;
-        background-color: $color2;
+        min-height: 100vh;
+        width: 100vw;
     }
     
     header{
         display: flex;
         flex: 1;
         flex-direction: column;
-        padding: 2.5rem;
-        background-color: $color2;
+        padding: 5rem;
         font-family: Helvetica, sans-serif;
+        align-items: flex-start;
+        justify-content: space-between;   
+        background-color: $color2;
     }
     
     .logo{
@@ -234,7 +232,6 @@ p{
     .links{
         display: flex;
         flex-direction: column;
-        padding-top: 60%;;
     }
     
     
@@ -261,58 +258,8 @@ p{
     #a3{
         padding-left: 44px;
     }
-    
-    .about{
-        display: flex;
-        align-items: center;
-        display: none;
-    
-    }
-    
-    p{
-        font-family: Helvetica Neue;
-        font-style: normal;
-        font-weight: 200;
-        font-size: 20px;
-        line-height: 30px;
-        color: $color1;
-    }
-    
-    .email{
-        font-family: Helvetica Neue;
-        font-style: normal;
-        font-weight: 100;
-        font-size: 30px;
-        line-height: 48px;
-        border-bottom:1px solid $color1;
-    
-    }
-    
-    .index-content{
-        display: flex;
-        padding: 5rem;
-        flex: 5;
-        position: relative;
-        justify-content: center;
-        display: none;
-    }
-    
-    
-    .bg1{
-        position: absolute;
-        bottom: 170px;
-        right: 0px;
-        width: 200px;
-        display: none;
 
-        
-    }
-    
-    .bg2{
-        position: absolute;
-        bottom: 0px;
-        right: 0px;
-        width: 350px;
+    .index-content{
         display: none;
     }
 }
