@@ -72,6 +72,15 @@ h1{
     padding-bottom: 1em;
 }
 
+.portfolio{
+    font-family: Helvetica Neue;
+    font-style: normal;
+    font-weight: 1000;
+    font-size: 20px;
+    line-height: 36px;
+    color: $color1;
+}
+
 
 .links{
     display: flex;
@@ -136,6 +145,14 @@ p{
     justify-content: center;
 }
 
+.portfolio-content{
+    display: flex;
+    padding: 5rem;
+    flex: 5;
+    position: relative;
+    justify-content: center;
+}
+
 
 .bg1{
     position: absolute;
@@ -150,6 +167,12 @@ p{
     bottom: 0px;
     right: 0px;
     width: 350px;
+}
+
+.card{
+    width: 485px;
+    height: 242px;
+    background-color: $color2;
 }
 
 
