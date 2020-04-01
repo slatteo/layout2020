@@ -1,0 +1,139 @@
+@import "https://meyerweb.com/eric/tools/css/reset/reset.css";
+body {
+  display: flex;
+  background-color: #000000;
+  width: 100vw;
+  min-height: 100vh;
+}
+
+header {
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+  padding: 9rem;
+  padding-bottom: 8rem;
+  background-color: #000000;
+  align-items: flex-start;
+  justify-content: space-between;
+}
+
+.idv {
+  padding-top: 6rem;
+  display: flex;
+  align-items: center;
+}
+
+.square {
+  width: 30px;
+  height: 30px;
+  background-color: #6CF37A;
+}
+
+.web {
+  padding-left: 1rem;
+  color: #FFFFFF;
+}
+
+h1 {
+  font-family: "GT America Extended Medium", sans-serif;
+  font-style: normal;
+  font-weight: 100;
+  font-size: 60px;
+  color: #FFFFFF;
+  padding-top: 2%;
+  padding-bottom: 0.5rem;
+}
+
+.info1 {
+  font-family: "Helvetica Neue", sans-serif;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 25px;
+  color: #FFFFFF;
+}
+
+.sections {
+  padding-top: 3rem;
+}
+
+.info4 {
+  font-family: "Helvetica Neue", sans-serif;
+  font-style: normal;
+  font-weight: 200;
+  font-size: 25px;
+  color: #FFFFFF;
+  padding-bottom: 1rem;
+}
+
+#portfolio {
+  font-family: "Helvetica Neue", sans-serif;
+  font-style: normal;
+  color: #FFFFFF;
+  padding-bottom: 10rem;
+}
+
+.links {
+  display: flex;
+  align-items: center;
+  padding-top: 3rem;
+}
+
+#be {
+  width: 39px;
+  margin-top: 5px;
+  color: #FFFFFF;
+}
+
+#li {
+  width: 27px;
+  color: #FFFFFF;
+}
+
+#te {
+  width: 27px;
+  color: #FFFFFF;
+}
+
+#gi {
+  width: 29px;
+}
+
+.logo {
+  padding-right: 2rem;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+  font-family: "Helvetica Neue", sans-serif;
+  font-style: normal;
+  font-weight: 100;
+  font-size: 20px;
+  line-height: 36px;
+  color: #000000;
+}
+
+.about {
+  display: flex;
+  align-items: center;
+}
+
+p {
+  font-family: Spectral;
+  font-style: normal;
+  font-weight: 200;
+  font-size: 20px;
+  line-height: 30px;
+  color: #FFFFFF;
+}
+
+.index-content {
+  display: flex;
+  padding: 5rem;
+  flex: 5;
+  position: relative;
+  justify-content: center;
+  color: #FFFFFF;
+}
+
+/*# sourceMappingURL=info.css.map */
